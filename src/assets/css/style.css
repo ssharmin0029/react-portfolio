@@ -1,0 +1,34 @@
+/* CSS Variables */
+:root {
+    --header-txt-color: rgb(224, 255, 255);
+    --txt-color: rgb(51, 100, 145);
+    --title-bg-color:  rgb(14, 53, 88);
+    --txt-font-fam: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(252, 249, 250) !important;
+}
+
+.info-title {
+    margin: 0px;
+    padding: 0px;
+}
+
+.info-section {
+    padding: 10px;
+}
+
+.info-section img {
+    margin-top: 40px;
+    width: 250px;
+    height: 305px;
+}
+
+
