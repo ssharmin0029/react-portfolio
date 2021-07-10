@@ -14,6 +14,8 @@
 
 body {
     background-color: rgb(252, 249, 250) !important;
+    /* position: relative; */
+    min-height: 100vh;
 }
 
 .info-title {
@@ -31,4 +33,27 @@ body {
     height: 305px;
 }
 
+footer {
+   flex-wrap: wrap;
+    position: relative;
+    /* bottom: 0%; */
+    top: 60px;
+    width: 100vw;
+}
+
+#content-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-list {
+    display: flex;
+    align-content: stretch;
+}
 

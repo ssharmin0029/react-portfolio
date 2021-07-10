@@ -31,7 +31,7 @@ function NavTabs() {
                         </NavLink>
                         {/* <a href="#content-work">Work</a>  */}
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <NavLink
                             exact
                             to="/contact"
@@ -40,8 +40,8 @@ function NavTabs() {
                         >
                             Contact
                         </NavLink>
-                        {/* <a href="#content-contact">Contact</a> */}
-                    </li>
+                        <a href="#content-contact">Contact</a>
+                    </li> */}
                     <li className="nav-item">
                         <NavLink
                             exact
