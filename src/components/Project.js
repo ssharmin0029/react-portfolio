@@ -1,15 +1,13 @@
 import React from "react";
-import "../assets/css/style.css";
 
 function Project(props) {
-  console.log(props);
-
   return (
     <div className="card project-section text-center">
       <div className="project-image">
         <img
           src={props.screenshot}
           className="card-img-top img-fluid img-thumbnail"
+          alt={props.title}
         />
       </div>
       <div className="card-body">
