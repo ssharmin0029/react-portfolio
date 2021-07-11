@@ -15,7 +15,7 @@ A portfolio is a great way to showcase skills and talents to employers. It gives
 
 ## Screenshots
 
-![alt text](assets/images/final-page-1.png)
+![alt text](public/images/final-page-1.png)
 
 ## Requirements
 
