@@ -1,59 +1,73 @@
 /* CSS Variables */
 :root {
-    --header-txt-color: rgb(224, 255, 255);
-    --txt-color: rgb(51, 100, 145);
-    --title-bg-color:  rgb(14, 53, 88);
-    --txt-font-fam: sans-serif;
+  --header-txt-color: rgb(224, 255, 255);
+  --txt-color: rgb(51, 100, 145);
+  --title-bg-color: rgb(14, 53, 88);
+  --txt-font-fam: sans-serif;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(252, 249, 250) !important;
-    /* position: relative; */
-    min-height: 100vh;
+  background-color: rgb(252, 249, 250) !important;
+  /* position: relative; */
+  min-height: 100vh;
 }
 
 .info-title {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .info-section {
-    padding: 10px;
+  padding: 10px;
 }
 
 .info-section img {
-    margin-top: 40px;
-    width: 250px;
-    height: 305px;
+  margin-top: 40px;
+  width: 250px;
+  height: 305px;
 }
 
 footer {
-   flex-wrap: wrap;
-    position: relative;
-    /* bottom: 0%; */
-    top: 60px;
-    width: 100vw;
+  flex-wrap: wrap;
+  position: relative;
+  /* bottom: 0%; */
+  top: 60px;
+  width: 100vw;
 }
 
 #content-contact {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-list {
-    display: flex;
-    align-content: stretch;
+  display: flex;
+  align-content: stretch;
 }
 
+.work-title {
+  margin-bottom: 10px;
+  margin-left: 60px;
+  padding: 0px;
+}
+
+.project-section img {
+  width: 550px;
+  height: 300px;
+}
+
+.project-image {
+  margin-top: 30px;
+}

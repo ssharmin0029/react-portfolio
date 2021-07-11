@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "The Other Side",
+    "screenshot": "images/project1.png",
+    "githubRepo": "https://github.com/ssharmin0029/project1",
+    "deployedApp": "https://ssharmin0029.github.io/project1/index.html"
+  },
+  {
+    "id": 2,
+    "title": "NYC Property Violations: HousingApp",
+    "screenshot": "images/project2.png",
+    "githubRepo": "https://github.com/ssharmin0029/property-violation",
+    "deployedApp": "https://property-violations-housingapp.herokuapp.com/"
+  },
+  {
+    "id": 3,
+    "title": "User/Employee Directory",
+    "screenshot": "images/project3.png",
+    "githubRepo": "https://github.com/ssharmin0029/user-directory",
+    "deployedApp": "https://user-directory-app-deployed.herokuapp.com/"
+  },
+  {
+    "id": 4,
+    "title": "Work Day Scheduler",
+    "screenshot": "images/project4.png",
+    "githubRepo": "https://github.com/ssharmin0029/day-planner",
+    "deployedApp": "https://ssharmin0029.github.io/day-planner/"
+  },
+  {
+    "id": 5,
+    "title": "Note Taker",
+    "screenshot": "images/project5.png",
+    "githubRepo": "https://github.com/ssharmin0029/note-taker",
+    "deployedApp": "https://note-taker-app-deployed.herokuapp.com/"
+  },
+  {
+    "id": 6,
+    "title": "Team Profile Generator",
+    "screenshot": "images/project6.png",
+    "githubRepo": "https://github.com/ssharmin0029/team-profile-generator",
+    "deployedApp": "https://drive.google.com/file/d/1WClinA1U5nxvHNp5bqpwJqncfFI8NZBW/view"
+  }
+]
