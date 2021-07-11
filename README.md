@@ -11,10 +11,11 @@
 
 ## Description
 
+A portfolio is a great way to showcase skills and talents to employers. It gives a quick access to all your work in once place, which can be used as a reference anytime. This assignment required to build my portfolio using react. Though initially challenging but I thoroughly enjoyed building the react portfolio app.
+
 ## Screenshots
 
-![alt text](public/images/final-page-1.png)
-![alt text](public/images/final-page-2.png)
+![alt text](assets/images/final-page-1.png)
 
 ## Requirements
 
