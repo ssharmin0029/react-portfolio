@@ -20,7 +20,7 @@ function About() {
           Engineering program is indeed a new experience. Curerntly working on
           projects, so look out for them in this space. Other than that I do
           collaborative work. Anyone interested can reach out to me using my
-          contact details.
+          contact details below.
         </p>
       </div>
     </div>
