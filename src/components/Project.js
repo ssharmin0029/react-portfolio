@@ -14,12 +14,22 @@ function Project(props) {
         <h4 className="card-title h4">{props.title}</h4>
         <ul>
           <li>
-            <a href={props.githubRepo} className="card-link" target="_blank">
+            <a
+              href={props.githubRepo}
+              className="card-link"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub Repo
             </a>
           </li>
           <li>
-            <a href={props.deployedApp} className="card-link" target="_blank">
+            <a
+              href={props.deployedApp}
+              className="card-link"
+              target="_blank"
+              rel="noreferrer"
+            >
               Deployed App/Demo Link
             </a>
           </li>

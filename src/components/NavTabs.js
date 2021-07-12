@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import resume from "../assets/sabrina-resume.pdf";
 
 function NavTabs() {
   return (
@@ -29,14 +30,14 @@ function NavTabs() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                exact
-                to="/resume"
-                activeClassName="nav-link active"
+              <a
+                href={resume}
                 className="nav-link"
+                target="_blank"
+                rel="noreferrer"
               >
                 Resume
-              </NavLink>
+              </a>
             </li>
           </ul>
         </nav>

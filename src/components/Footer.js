@@ -15,7 +15,11 @@ function Footer() {
               </a>
             </li>
             <li className="contact-list-items">
-              <a href="https://github.com/ssharmin0029" target="_blank">
+              <a
+                href="https://github.com/ssharmin0029"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={faGithub} size="3x" />
               </a>
             </li>
@@ -23,6 +27,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/sabrina-sharmin-68171b13a/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faLinkedin} size="3x" />
               </a>
