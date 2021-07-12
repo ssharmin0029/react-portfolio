@@ -1,10 +1,10 @@
 /* CSS Variables */
-/* :root {
+:root {
   --header-txt-color: rgb(224, 255, 255);
   --txt-color: rgb(51, 100, 145);
   --title-bg-color: rgb(14, 53, 88);
   --txt-font-fam: sans-serif;
-} */
+}
 
 * {
   box-sizing: border-box;
@@ -41,9 +41,16 @@ body {
 }
 
 .info-section img {
-  margin-top: 40px;
+  margin-top: 50px;
+  margin-right: 15%;
   width: 250px;
   height: 305px;
+}
+
+.info-section p {
+  margin-top: 10px;
+  margin-left: 25%;
+  width: 50%;
 }
 
 .work-title {
