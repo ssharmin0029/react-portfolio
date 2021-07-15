@@ -11,7 +11,7 @@ function Project(props) {
         />
       </div>
       <div className="card-body">
-        <h4 className="card-title h4">{props.title}</h4>
+        <h4 className="card-title">{props.title}</h4>
         <ul>
           <li>
             <a

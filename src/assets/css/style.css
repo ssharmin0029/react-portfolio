@@ -1,10 +1,13 @@
 /* CSS Variables */
-/* :root {
-  --header-txt-color: rgb(224, 255, 255);
-  --txt-color: rgb(51, 100, 145);
-  --title-bg-color: rgb(14, 53, 88);
-  --txt-font-fam: sans-serif;
-} */
+:root {
+  --txt-font-fam1: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --txt-font-fam2: Verdana, Geneva, Tahoma, sans-serif;
+  --txt-color1: #6f7f9b;
+  --txt-color2: #4a4e69;
+  --bg-color1: #edf2f4;
+  --bg-color2: #ffffff;
+}
 
 * {
   box-sizing: border-box;
@@ -18,12 +21,45 @@ body {
 }
 
 body {
-  background-color: rgb(252, 249, 250) !important;
+  background-color: var(--bg-color1) !important;
   min-height: 100vh;
 }
 
 #root {
   min-height: 100vh;
+}
+
+.nav-content {
+  background-color: var(--bg-color2);
+}
+
+.nav-content h1 {
+  font-family: var(--txt-font-fam1);
+  font-size: 26px;
+  color: var(--txt-color1);
+}
+
+.nav-content h1:hover {
+  color: var(--txt-color2);
+}
+
+.nav-content ul {
+  padding: 10px;
+  font-family: var(--txt-font-fam1);
+  font-size: 20px;
+  font-style: inherit;
+}
+
+.nav-content .nav-link {
+  font-weight: bold;
+  color: var(--txt-color2);
+  transition: 0.3s;
+}
+
+.nav-content .nav-link:hover {
+  transform: scale(1.01);
+  box-shadow: 1px 1px 3px rgb(0 0 0 / 25%);
+  color: var(--txt-color1);
 }
 
 .content-main {
@@ -34,22 +70,28 @@ body {
   margin-bottom: 10px;
   margin-left: 60px;
   padding: 0px;
+  color: var(--txt-color2);
+}
+
+.info-title:hover {
+  color: var(--txt-color1);
 }
 
 .info-section {
   padding: 10px;
+  color: var(--txt-color2);
 }
 
 .info-section img {
   margin-top: 50px;
-  margin-right: 15%;
+  margin-right: 14%;
   width: 250px;
   height: 305px;
 }
 
 .info-section p {
   margin-top: 10px;
-  margin-left: 23%;
+  margin-left: 26%;
   width: 50%;
 }
 
@@ -57,8 +99,16 @@ body {
   margin-bottom: 10px;
   margin-left: 60px;
   padding: 0px;
+  color: var(--txt-color2);
 }
 
+.work-title:hover {
+  color: var(--txt-color1);
+}
+
+.project-section {
+  background-color: var(--bg-color1) !important;
+}
 .project-section img {
   width: 550px;
   height: 300px;
@@ -68,11 +118,32 @@ body {
   margin-top: 30px;
 }
 
+.card-title {
+  font-family: var(--txt-font-fam2);
+  font-size: 25px;
+  color: var(--txt-color2);
+}
+
+.card-title:hover {
+  color: var(--txt-color1);
+}
+
+.card-link {
+  font-family: var(--txt-font-fam2);
+  font-size: 18px;
+  color: var(--txt-color1);
+}
+
+.card-link:hover {
+  color: var(--txt-color2);
+}
+
 footer {
   flex-wrap: wrap;
   position: relative;
   top: 60px;
   width: 100vw;
+  background-color: var(--bg-color2);
 }
 
 #content-contact {
@@ -93,4 +164,13 @@ footer {
 
 .contact-list-items {
   margin-right: 15px;
+  margin-top: 15px;
+}
+
+.contact-list-items a {
+  color: var(--txt-color2) !important;
+}
+
+.contact-list-items a:hover {
+  color: var(--txt-color1) !important;
 }

@@ -4,9 +4,9 @@ import resume from "../assets/sabrina-resume.pdf";
 
 function NavTabs() {
   return (
-    <nav className="navbar navbar-light bg-light shadow-lg p-3 mb-5 bg-body rounded">
+    <nav className="navbar navbar-light nav-light shadow-lg p-3 mb-5 rounded nav-content">
       <div className="container-fluid">
-        <h1 class="h4 text-muted">Sabrina Sharmin</h1>
+        <h1 class="h4">Sabrina Sharmin</h1>
         <nav>
           <ul className="nav nav-tabs">
             <li className="nav-item">

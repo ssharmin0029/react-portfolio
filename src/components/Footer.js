@@ -6,7 +6,7 @@ import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 function Footer() {
   return (
     <footer>
-      <nav id="content-contact" className="navbar navbar-dark bg-dark">
+      <nav id="content-contact" className="navbar">
         <div className="container-fluid contact-section ">
           <ul className="contact-list">
             <li className="contact-list-items">

@@ -21,7 +21,7 @@ class Work extends Component {
 
   render() {
     return (
-      <div>
+      <div className="work-section">
         <div className="work-title">
           <h2 className="float-center">Work</h2>
         </div>
